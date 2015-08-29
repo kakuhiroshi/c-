@@ -1,6 +1,7 @@
 #include<iostream>
 #include"binary_tree.h"
 #include"stoffer.h"
+#include"my_algorithm.h"
 
 using namespace std;
 
@@ -20,8 +21,9 @@ void _test29(){
 void _test(int pno){
 	cout<<"_test:\t<problem "<<pno<<" run test. ***start***>"<<endl;
 	switch(pno){
-		case 29: _test29();break;
-		default:cout<<"no _test"<<pno<<"()"<<endl;break;
+		case -1: _test_binary_search(); break;
+		case 29: _test29(); break;
+		default:cout<<"no _test"<<pno<<"()"<<endl; break;
 	}
 	cout<<"_test:\t<problem "<<pno<<" run test. ***end***>"<<endl;
 }
