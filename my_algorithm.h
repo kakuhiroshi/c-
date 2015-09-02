@@ -5,7 +5,7 @@ template<class ElementIterator, class Element>
 int b_search(ElementIterator first, ElementIterator last, Element value);
 
 template<class T>
-void __test(T test_val, T true_val, const char* file, unsigned int line);
+void __test(T test_val, T true_val, const char* file, unsigned int line, int status);
 
 void _test_binary_search();
 
