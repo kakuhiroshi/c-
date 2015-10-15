@@ -2,7 +2,7 @@
 #include"binary_tree.h"
 #include"stoffer.h"
 #include"my_algorithm.h"
-
+#include<algorithm>
 using namespace std;
 
 void help(){
@@ -47,7 +47,10 @@ int main(int argc, char **args){
 			}
 		}	
 	}
-
+	int arr[10]={0,1,2,3,4,5,6,7,8,9};
+	make_heap(arr,arr+10);
+	for(int i=0;i<10;i++)
+		cout<<arr[i];
 	return 1;
 }
 
