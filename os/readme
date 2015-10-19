@@ -1,3 +1,7 @@
 Implement of Producer&Customer
 pro_cus_ss for single-to-single problem
 pro_cus_mm for multi-to-multi problem
+
+>>make
+>>./pcss
+>>./pcmm
